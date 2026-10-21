@@ -1,0 +1,72 @@
+[
+ {
+  "time": 1792052733264,
+  "duration": 102899,
+  "passed": 4,
+  "failed": 3,
+  "flaky": 0,
+  "skipped": 1,
+  "total": 8,
+  "tests": {
+   "electron::cypress/e2e/test/accountOverviewTest.cy.ts::Account Overview Test › should display the total balance": [
+    "f",
+    15769
+   ],
+   "electron::cypress/e2e/test/loginTest.cy.ts::Login Test › should log in with valid email and password": [
+    "f",
+    11252
+   ],
+   "electron::cypress/e2e/test/loginTest.cy.ts::Login Test › should reject login with invalid username": [
+    "p",
+    4302
+   ],
+   "electron::cypress/e2e/test/loginTest.cy.ts::Login Test › should reject login with invalid password": [
+    "p",
+    5878
+   ],
+   "electron::cypress/e2e/test/loginTest.cy.ts::Login Test › should reject login without entering credentials": [
+    "p",
+    4534
+   ],
+   "electron::cypress/e2e/test/openNewAccountTest.cy.ts::Open New Account › should open a checking account successfully": [
+    "f",
+    10692
+   ],
+   "electron::cypress/e2e/test/openNewAccountTest.cy.ts::Open New Account › should open a savings account successfully": [
+    "s",
+    0
+   ],
+   "electron::cypress/e2e/test/registerTest.cy.ts::Registration Tests › should display validation errors when required fields are empty": [
+    "p",
+    3820
+   ]
+  }
+ },
+ {
+  "time": 1792482274796,
+  "duration": 22256,
+  "passed": 3,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 4,
+  "tests": {
+   "electron::cypress/e2e/features/login.feature::ParaBank Login › Login with valid credentials": [
+    "f",
+    9641
+   ],
+   "electron::cypress/e2e/features/login.feature::ParaBank Login › Login with invalid username": [
+    "p",
+    2243
+   ],
+   "electron::cypress/e2e/features/login.feature::ParaBank Login › Login with invalid password": [
+    "p",
+    2370
+   ],
+   "electron::cypress/e2e/features/login.feature::ParaBank Login › Login without credentials": [
+    "p",
+    1975
+   ]
+  }
+ }
+]
